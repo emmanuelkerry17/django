@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Students</title>
+</head>
+<body>
+<h4>students list</h4>
+
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Number</th>
+        <th>Location</th>
+    </tr>
+    
+    {% for gg in pupil %}
+    
+    <tr>
+        <th>{{ gg.name }}</th>
+        <th>{{ gg.number }}</th>
+        <th>{{ gg.location }}</th>
+    </tr>
+    
+    {% endfor %}
+    
+    
+    
+    
+</table>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

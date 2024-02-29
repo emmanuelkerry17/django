@@ -1,0 +1,14 @@
+django-admin startproject(name of project)
+
+
+
+python3 manage.py runserver   (used to run the website)
+
+
+django-admin startapp class   (create app in terminal)
+
+
+
+install app (in settings)/home/emobilis/Pictures/Screenshot from 2024-02-19 15-05-48.png
+
+create urls file in app 
